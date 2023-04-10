@@ -1,19 +1,24 @@
 package Functions;
 
+import java.util.Scanner;
+
 public class Overload {
     public static void main(String[] args){
-        overload("Bibus", "Bobus");
-        overload(4, 5);
-        overload(1, true);
+        Scanner scan = new Scanner(System.in);
+        String bibus = scan.nextLine();
+        String arstocka = scan.nextLine();
+        overload_1(bibus, arstocka);
+        overload_2(1, 1);
+        overload_3(1, true);
     }
-    public static void overload(String word_1, String word_2){
-        System.out.println(word_1 + " " + word_2);
+    public static void overload_1(String bibka, String bibka2){
+        System.out.println(bibka + " " + bibka2);
     }
-    public static void overload(int i_1, int i_2){
-        System.out.println(i_1);
-        System.out.println(i_2);
+    public static void overload_2(int bibka, int bibka2){
+        System.out.println(bibka);
+        System.out.println(bibka2);
     }
-    public static void overload(int i_1, boolean b_1){
-        System.out.println(i_1 + "+" + b_1);
+    public static void overload_3(int bibka, Boolean bibka2){
+        System.out.println(bibka + " " + bibka2);
     }
 }
