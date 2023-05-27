@@ -25,13 +25,13 @@ public class PriOut {
         System.out.println(BR.readLine());
         BR.close();
 
-        try{
-            BufferedReader file2 = new BufferedReader(new FileReader("textik.txt"));
-            System.out.println(file2.readLine());
-        }
-        catch(FileNotFoundException e){
-            System.out.println("Ошибочка вышла " + e);
-        }
+        // try{
+        //     BufferedReader file2 = new BufferedReader(new FileReader("textik.txt"));
+        //     System.out.println(file2.readLine());
+        // }
+        // catch(FileNotFoundException e){
+        //     System.out.println("Ошибочка вышла " + e);
+        // }
     }
 }
 

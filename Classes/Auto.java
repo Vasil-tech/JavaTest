@@ -9,5 +9,13 @@ public class Auto {
         auto.speed = "310 km/h";
 
         auto.gus();
+        AirPlane wi = new AirPlane();
+        AirPlane wi2 = new AirPlane();
+
+        wi.wing.setWeigth(190);
+        wi2.wing.setWeigth(180);
+
+        System.out.println(wi.wing.getWeigth());
+        System.out.println(wi2.wing.getWeigth());
     }
 }
