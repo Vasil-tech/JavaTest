@@ -1,21 +1,7 @@
-public class Parent
-{
-    int val;
+// Select the option containing the correct order of the interfaces corresponding to the implementing classes given below.
 
-    public Parent()
-    {
-      init();
-    }
-    void init()
-    {
-    }
-    public void test()
-    {
-    }
-
-static public void main(String[] args) 
-{
-Parent p = new Child();
-p.test();
-     }
-}
+// Vector 
+// LinkedList 
+// Hashtable 
+// HashMap 
+// TreeSet 
