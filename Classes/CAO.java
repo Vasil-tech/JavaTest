@@ -20,18 +20,27 @@ public class CAO {
         person2.getAge();
         person2.speak();
 
+        Person person3 = new Person();
+        person3.setName(" ");
+        person3.speak();
+
+        Person.Jimmy = "Cum";
+        Person.Jimmy = "Bum";
+        System.out.println(Person.Jimmy);
     }
 }
 
 class Person{
     private String name;
     private int age;
+    public static String Jimmy;
 
     public String getName(){
         return name;
     }
     public void setName(String name){
-        this.name = name;
+        if(name.isEmpty()){System.out.println("Ты ввёл пустое имя");}
+        else{ this.name = name; }
     }
 
     public int getAge(){
