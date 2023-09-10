@@ -9,7 +9,7 @@ public class CAO {
         person1.getName();
         person1.setAge(25);
         person1.getAge();
-        person1.speak();
+        // person1.speak();
 
         Person person2 = new Person();
         // person2.name = "Alan";
@@ -18,15 +18,16 @@ public class CAO {
         person1.getName();
         person2.setAge(40);
         person2.getAge();
-        person2.speak();
+        // person2.speak();
 
         Person person3 = new Person();
         person3.setName(" ");
-        person3.speak();
-
-        Person.Jimmy = "Cum";
-        Person.Jimmy = "Bum";
-        System.out.println(Person.Jimmy);
+        // person3.speak();
+        Auto2 human1 = new Auto2();
+        human1.sb.append("kok");
+        System.out.println(human1.sb.toString());
+        human1.sb.append(" cock").append(" boobs");
+        System.out.println(human1.sb.toString());
     }
 }
 
@@ -34,6 +35,8 @@ class Person{
     private String name;
     private int age;
     public static String Jimmy;
+    
+        StringBuilder sb = new StringBuilder();
 
     public String getName(){
         return name;
