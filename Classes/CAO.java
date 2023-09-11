@@ -31,6 +31,12 @@ public class CAO {
         System.out.println();
         ExtendStatic2 ex = new ExtendStatic2();
         System.out.println(ex.boobs());
+
+
+
+        Internatio inter = new ExtendStatic();
+        inter.showInfo();
+        ExtendStatic.cockerman();
     }
 }
 
