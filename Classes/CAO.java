@@ -28,6 +28,9 @@ public class CAO {
         System.out.println(human1.sb.toString());
         human1.sb.append(" cock").append(" boobs");
         System.out.println(human1.sb.toString());
+        System.out.println();
+        ExtendStatic2 ex = new ExtendStatic2();
+        System.out.println(ex.boobs());
     }
 }
 
