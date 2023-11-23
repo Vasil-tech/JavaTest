@@ -19,14 +19,14 @@ public class Test {
         // bob.bark();
         // bib.bark();
 
-        PoliChild dog = new PoliChild();
-        Poli animal = dog;
+        // PoliChild dog = new PoliChild();
+        // Poli animal = dog;
 
-        dog.bark();
-        animal.cock();
+        // dog.bark();
+        // animal.cock();
 
-        PoliChild dog2 = (PoliChild)animal;
-        dog2.cock();
+        // PoliChild dog2 = (PoliChild)animal;
+        // dog2.cock();
     }
 
     // public static void bit(Poli poli){
