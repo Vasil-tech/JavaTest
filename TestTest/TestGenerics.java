@@ -42,6 +42,7 @@ public class TestGenerics {
 
 
         gaysex.kosyak2();
+        gaysex.kosyak();
         // List animalss = new ArrayList();
         // animalss.add("Hitler");
         // animalss.add("Dassler");
